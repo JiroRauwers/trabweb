@@ -1,8 +1,8 @@
-import { Container, Box } from "./style"
+import { Wrapper, Box } from "./style"
 
 function Login(){
     return (
-        <Container>
+        <Wrapper>
             <Box>
                 <h1>Login</h1>
                 <input type='email' placeholder="E-mail"/>
@@ -10,8 +10,9 @@ function Login(){
                 <button className="logar">Enviar</button>
                 <button className="cadastrar">Cadastrar-se</button>
             </Box>
-        </Container>
-    )
+        </Wrapper>
+    )e
 }
 
-export default Login
+
+

@@ -2,16 +2,17 @@ import styled from "styled-components";
 import email from "../../assets/img/email.png"
 import pass from "../../assets/img/hide.png"
 
-export const Container = styled.div`
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(to right top, #ff89f0, #ff8cbe, #ffa88c, #ffd16e, #fff976);;
-`
+export const Wrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+`;
 
 export const Box = styled.div`
+    * {color: #000; }
+  
     background: white;
     padding: 55px;
     display: flex;
@@ -50,6 +51,8 @@ export const Box = styled.div`
     }
 
     .cadastrar{
+      cursor: pointer;
+      
         width: 100%;
         padding: 5px 10px;
         background-color: transparent;
@@ -62,6 +65,8 @@ export const Box = styled.div`
     }
 
     .logar{
+        cursor:pointer;
+      
         width: 100%;
         padding: 5px 10px;
         background-image: linear-gradient(to right top, #ff89f0, #ff8cbe, #ffa88c, #ffd16e, #fff976);;
