@@ -2,7 +2,11 @@ import styled from "styled-components";
 
 
 const Wrapper = styled.div`
-  font-family: 'Inter';
+  font-family: 'Open sans';
+  
+  &, * {
+    z-index: 100;
+  }
   
   display: flex;
   flex-direction: row;
@@ -29,7 +33,7 @@ const LogoBox = styled.div`
   padding-right: 0;
   margin-right: -2rem;
   letter-spacing: 0.2rem;
-  font-family: Inter;
+  font-family: 'Open sans';
   
   display: flex;
   flex-direction: column;
@@ -61,7 +65,7 @@ const ProfileBox = styled.a`
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  padding: 10px 24px;
+  padding: 10px 50px;
   gap: 10px;
 
   border-radius: 22px;
@@ -91,9 +95,11 @@ const ProfileBox = styled.a`
 
 `;
 
-const Btn = styled.button`
+const Btn = styled.a`
   border: none;
   background: none;
+  
+  text-decoration: none;
   
   cursor: pointer;
   
@@ -104,7 +110,7 @@ const Btn = styled.button`
   padding: 10px 24px;
   gap: 10px;
 
-  font-family: 'Inter';
+  font-family: 'Open sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;

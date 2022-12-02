@@ -4,17 +4,17 @@ export const Menu = () => {
 
     return (
         <MenuStyle.Wrapper>
-            <MenuStyle.LogoBox>
+            <MenuStyle.LogoBox  href={"/"}>
                 Healthier
             </MenuStyle.LogoBox>
             <MenuStyle.ItemsBox>
-                <MenuStyle.Btn>
+                <MenuStyle.Btn href={"/home"}>
                     Home
                 </MenuStyle.Btn>
-                <MenuStyle.Btn>
+                <MenuStyle.Btn  href={"/diets"}>
                     Diets
                 </MenuStyle.Btn>
-                <MenuStyle.Btn>
+                <MenuStyle.Btn  href={"/about"}>
                     About
                 </MenuStyle.Btn>
             </MenuStyle.ItemsBox>

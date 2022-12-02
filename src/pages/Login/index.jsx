@@ -11,8 +11,9 @@ function Login(){
                 <button className="cadastrar">Cadastrar-se</button>
             </Box>
         </Wrapper>
-    )e
+    )
 }
 
+export default Login
 
 
